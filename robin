@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Basic Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #87ceeb;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #87ceeb;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+</header>
+
+<main>
+    <h2>About Me</h2>
+    <p>Hello! My name is Yuvan. Welcome to my basic webpage. This is an example of a simple HTML document.</p>
+
+    <h2>My Interests</h2>
+    <ul>
+        <li>Coding</li>
+        <li>Reading</li>
+        <li>Traveling</li>
+    </ul>
+
+    <h2>Contact Me</h2>
+    <p>You can contact me at <a href="mailto:yuvan@example.com">yuvan@example.com</a>.</p>
+</main>
+
+<footer>
+    <p>&copy; 2024 Yuvan's Website</p>
+</footer>
+
+</body>
+</html>
